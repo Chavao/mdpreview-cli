@@ -27,6 +27,18 @@ Optionally install into your `$GOPATH/bin`:
 go install ./cmd/mdpreview-cli
 ```
 
+## Quick Demo
+
+Preview all supported Markdown features and modern GitHub alert callouts using the included showcase file:
+
+```bash
+# Preview via file argument
+./bin/mdpreview-cli examples/showcase.md
+
+# Or pipe via stdin
+cat examples/showcase.md | ./bin/mdpreview-cli
+```
+
 ## Usage
 
 ### 1. Previewing a file
